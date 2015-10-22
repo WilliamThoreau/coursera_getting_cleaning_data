@@ -10,8 +10,6 @@ FilePath <- paste0("./UCI HAR Dataset/test/Y_test.txt")
 Y_test <- read.table(FilePath)
 FilePath <- paste0("./UCI HAR Dataset/test/subject_test.txt") 
 subject_test <- read.table(FilePath)
-FilePath <- paste0("./UCI HAR Dataset/test/subject_test.txt") 
-subject_test <- read.table(FilePath)
 ## Getting the train tables
 FilePath <- paste0("./UCI HAR Dataset/train/X_train.txt")  
 X_train <- read.table(FilePath)
