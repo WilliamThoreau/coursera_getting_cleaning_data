@@ -7,9 +7,9 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 ###Files in this repository
 
-	*README.md - This file, contains the overall description of the project
-	*DataCleaningProjectScript.R - The R script to run to clean the dataset
-	*CodeBook.md - Describes the variables, the data, and the transformations or work that performed to clean up the data
+	* README.md - This file, contains the overall description of the project
+	* DataCleaningProjectScript.R - The R script to run to clean the dataset
+	* CodeBook.md - Describes the variables, the data, and the transformations or work that performed to clean up the data
 
 ###How to clean the dataset?
 
