@@ -31,13 +31,13 @@ Below is a summary of what the code is performing, for more details refer to the
 
 *  Step 1
 	* Getting the test tables by reading the following tables
-./UCI HAR Dataset/test/X_test.txt
-./UCI HAR Dataset/test/Y_test.txt
-./UCI HAR Dataset/test/subject_test.txt
-./UCI HAR Dataset/train/X_train.txt
-./UCI HAR Dataset/train/Y_train.txt
-./UCI HAR Dataset/train/subject_train.txt
-	** Merge the train and test data set
+	./UCI HAR Dataset/test/X_test.txt
+	./UCI HAR Dataset/test/Y_test.txt
+	./UCI HAR Dataset/test/subject_test.txt
+	./UCI HAR Dataset/train/X_train.txt
+	./UCI HAR Dataset/train/Y_train.txt
+	./UCI HAR Dataset/train/subject_train.txt
+	* Merge the train and test data set
 
 
 *  Step 2
@@ -47,23 +47,23 @@ Below is a summary of what the code is performing, for more details refer to the
 
 
 *  Step 3 
-	** Read Activity labels
-./UCI HAR Dataset/activity_labels.txt
-	** Replace the numbers by the names of Activity
+	* Read Activity labels
+	./UCI HAR Dataset/activity_labels.txt
+	* Replace the numbers by the names of Activity
 
 
 *  Step 4  Columns Formatting
-	** Clean,Format then Name the Columns from the Features name list
-	** Name the Y_Data Dataset
+	* Clean,Format then Name the Columns from the Features name list
+	* Name the Y_Data Dataset
 typeofactivity
-	** Name the Subject_Data Dataset
+	* Name the Subject_Data Dataset
 subject
 
 
 *  Step 5 
-	** Aggregate the data by "subject" and "TypeOfActivity" and compute mean of variables
+	* Aggregate the data by "subject" and "TypeOfActivity" and compute mean of variables
 
-	** Generate a text file from the resulting table
+	* Generate a text file from the resulting table
 
 
 
