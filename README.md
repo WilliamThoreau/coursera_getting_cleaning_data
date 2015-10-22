@@ -31,12 +31,14 @@ Below is a summary of what the code is performing, for more details refer to the
 
 *  Step 1
 	* Getting the test tables by reading the following tables
+	
 	./UCI HAR Dataset/test/X_test.txt
 	./UCI HAR Dataset/test/Y_test.txt
 	./UCI HAR Dataset/test/subject_test.txt
 	./UCI HAR Dataset/train/X_train.txt
 	./UCI HAR Dataset/train/Y_train.txt
 	./UCI HAR Dataset/train/subject_train.txt
+	
 	* Merge the train and test data set
 
 
