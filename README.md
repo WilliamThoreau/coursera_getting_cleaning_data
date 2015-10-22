@@ -30,28 +30,26 @@ It contains the cleaned dataset as per the methodology explained in below proced
 Below is a summary of what the code is performing, for more details refer to the comments in the code
 
 *  Step 1
-	* Getting the test tables by reading the following tables
-	
-	./UCI HAR Dataset/test/X_test.txt
-	./UCI HAR Dataset/test/Y_test.txt
-	./UCI HAR Dataset/test/subject_test.txt
-	./UCI HAR Dataset/train/X_train.txt
-	./UCI HAR Dataset/train/Y_train.txt
-	./UCI HAR Dataset/train/subject_train.txt
-	
-	* Merge the train and test data set
+	* Getting the test tables by reading the following tables  
+	./UCI HAR Dataset/test/X_test.txt  
+	./UCI HAR Dataset/test/Y_test.txt  
+	./UCI HAR Dataset/test/subject_test.txt  
+	./UCI HAR Dataset/train/X_train.txt  
+	./UCI HAR Dataset/train/Y_train.txt  
+	./UCI HAR Dataset/train/subject_train.txt  
+	* Merge the train and test data set  
 
 
 *  Step 2
-	* Get the Features table
-./UCI HAR Dataset/features.txt
-	* Select only the columns that contains mean() and std() variables from the data set
+	* Get the Features table  
+./UCI HAR Dataset/features.txt  
+	* Select only the columns that contains mean() and std() variables from the data set  
 
 
 *  Step 3 
-	* Read Activity labels
-	./UCI HAR Dataset/activity_labels.txt
-	* Replace the numbers by the names of Activity
+	* Read Activity labels  
+	./UCI HAR Dataset/activity_labels.txt  
+	* Replace the numbers by the names of Activity  
 
 
 *  Step 4  Columns Formatting
