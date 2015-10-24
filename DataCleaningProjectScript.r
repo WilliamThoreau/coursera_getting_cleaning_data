@@ -50,6 +50,10 @@ for(i in 1 : nrow(Y_Data)) {
 ProperColNames<- gsub("[^[:alpha:]]", "", colnames(X_Data_MeanAndStd))
 ProperColNames<- gsub("bodybody", "body", tolower(ProperColNames),fixed = TRUE )
 ProperColNames<- gsub("acc", "acceleration", ProperColNames,fixed = TRUE )
+ProperColNamesTime<- sub("t", "timedomain", ProperColNames[1:40],fixed = TRUE )
+ProperColNamesFreq<- sub("f", "frequencydomain", ProperColNames[41:length(ProperColNames)],fixed = TRUE )
+ProperColNames <- c(ProperColNamesTime,ProperColNamesFreq)
+
 colnames(X_Data_MeanAndStd) <- ProperColNames
 ##Name the Y_Data Dataset
 colnames(Y_Data) <- "typeofactivity"
