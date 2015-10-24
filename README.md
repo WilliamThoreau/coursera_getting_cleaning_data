@@ -54,10 +54,8 @@ Below is a summary of what the code is performing, for more details refer to the
 
 *  Step 4  Columns Formatting
 	* Clean,Format then Name the Columns from the Features name list
-	* Name the Y_Data Dataset
-typeofactivity
-	* Name the Subject_Data Dataset
-subject
+	* Name the Y_Data Dataset : 		typeofactivity
+	* Name the Subject_Data Dataset :	subject
 
 
 *  Step 5 
