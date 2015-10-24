@@ -8,7 +8,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 ###Files in this repository
 
 	* README.md - This file, contains the overall description of the project
-	* DataCleaningProjectScript.R - The R script to run to clean the dataset
+	* run_analysis.R - The R script to run to clean the dataset
 	* CodeBook.md - Describes the variables, the data, and the transformations or work that performed to clean up the data
 
 ###How to clean the dataset?
@@ -19,7 +19,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 * 2) Unzip it in your working directory
 You should now have a folder called "UCI HAR Dataset" in your working directory
 
-* 3) Run the script DataCleaningProjectScript.R in your favorite IDE (e.g. RStudio)
+* 3) Run the script run_analysis.R in your favorite IDE (e.g. RStudio)
 This one script performs all the actions needed to get and clean the dataset
 
 * 4) Enjoy the clean dataset 
