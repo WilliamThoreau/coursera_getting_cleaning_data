@@ -14,22 +14,24 @@ These signals were used to estimate variables of the feature vector for each pat
 
 
 
-### Below are details about the table, by column
-
+### Below are details about the table, by column.   
+Note: A glossary is available at the end of this codebook
 
 * Column 1
 	* Column name: subject
 	* Values: 1..30
-	* Description: Unique identifier assigned to each subject
+	* Description / unit : Unique identifier assigned to each subject
 
 
 * Column 2
 	* Column name: typeofactivity
 	* Values: "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING"
-	* Description: Kind of activity performed by the subject
+	* Description / unit : Kind of activity performed by the subject
 
 * Columns 3 to 68
 
+	* Values: correspond to the mean of each variable name for each Subject and typeofactivity
+	* Description / unit: Unique identifier assigned to each subject. Units defined for each group of feature below
 	* Column names:  
 timedomainbodyaccelerationmeanx  
 timedomainbodyaccelerationmeany  
@@ -49,6 +51,8 @@ timedomainbodyaccelerationjerkmeanz
 timedomainbodyaccelerationjerkstdx  
 timedomainbodyaccelerationjerkstdy  
 timedomainbodyaccelerationjerkstdz  
+	* For above: Units : The units are in standard gravity units 'g'
+
 timedomainbodygyromeanx  
 timedomainbodygyromeany  
 timedomainbodygyromeanz  
@@ -61,16 +65,22 @@ timedomainbodygyrojerkmeanz
 timedomainbodygyrojerkstdx  
 timedomainbodygyrojerkstdy  
 timedomainbodygyrojerkstdz  
+	* For above: Units : The units are radians/second.
+
 timedomainbodyaccelerationmagmean  
 timedomainbodyaccelerationmagstd  
 timedomaingravityaccelerationmagmean  
 timedomaingravityaccelerationmagstd  
 timedomainbodyaccelerationjerkmagmean  
-timedomainbodyaccelerationjerkmagstd  
+timedomainbodyaccelerationjerkmagstd
+	* For above: Units : The units are in standard gravity units 'g'
+
 timedomainbodygyromagmean  
 timedomainbodygyromagstd  
 timedomainbodygyrojerkmagmean  
 timedomainbodygyrojerkmagstd  
+	* For above: Units : The units are radians/second.
+
 frequencydomainbodyaccelerationmeanx  
 frequencydomainbodyaccelerationmeany  
 frequencydomainbodyaccelerationmeanz  
@@ -83,6 +93,8 @@ frequencydomainbodyaccelerationjerkmeanz
 frequencydomainbodyaccelerationjerkstdx  
 frequencydomainbodyaccelerationjerkstdy  
 frequencydomainbodyaccelerationjerkstdz  
+	* For above: Units : The units are in standard gravity units 'g'
+
 frequencydomainbodygyromeanx  
 frequencydomainbodygyromeany  
 frequencydomainbodygyromeanz  
@@ -97,9 +109,34 @@ frequencydomainbodygyromagmean
 frequencydomainbodygyromagstd  
 frequencydomainbodygyrojerkmagmean  
 frequencydomainbodygyrojerkmagstd  
+	* For above: Units : The units are radians/second.
 
-	* Values: correspond to the mean of each variable name accros Subject and typeofactivity
-	* Description: Unique identifier assigned to each subject
-	
+### Glossary
+
+mean(): Mean value  
+std(): Standard deviation  
+mad(): Median absolute deviation  
+max(): Largest value in array  
+min(): Smallest value in array  
+sma(): Signal magnitude area  
+energy(): Energy measure. Sum of the squares divided by the number of values.   
+iqr(): Interquartile range   
+entropy(): Signal entropy  
+arCoeff(): Autorregresion coefficients with Burg order equal to 4  
+correlation(): correlation coefficient between two signals  
+maxInds(): index of the frequency component with largest magnitude  
+meanFreq(): Weighted average of the frequency components to obtain a mean frequency  
+skewness(): skewness of the frequency domain signal   
+kurtosis(): kurtosis of the frequency domain signal   
+bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.  
+angle(): Angle between to vectors.  
+
+Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:  
+
+gravityMean  
+tBodyAccMean  
+tBodyAccJerkMean  
+tBodyGyroMean  
+tBodyGyroJerkMean  
 	
 	
